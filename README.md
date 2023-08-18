@@ -28,8 +28,8 @@ Your company has decided to create an API to share data with other companies. Yo
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,git" />
+    <img src="https://skillicons.dev/icons?i=php,git,mysql" />
   </a>
 </p>
-<img src="https://img.shields.io/badge/Technos-PHP_/_Git-green?style=for-the-badge&logo=appveyor" alt="Badge Technologies" style="margin-right:10px;">
+<img src="https://img.shields.io/badge/Technos-PHP_/_Git_MySQL_-green?style=for-the-badge&logo=appveyor" alt="Badge Technologies" style="margin-right:10px;">
 
