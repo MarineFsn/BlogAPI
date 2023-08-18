@@ -22,7 +22,7 @@ Your company has decided to create an API to share data with other companies. Yo
            
 
 
-<img src="https://img.shields.io/badge/Collaborators-5-red?style=for-the-badge&logo=appveyor" alt="Badge Collaborators" style="margin-right:10px;">
+<img src="https://img.shields.io/badge/Collaborators-5-red?style=for-the-badge&logo=appveyor" alt="Badge Collaborators">
 
 https://github.com/MarineFsn/cogip
 
