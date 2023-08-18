@@ -1,0 +1,550 @@
+[10-Aug-2023 08:19:44 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:20:38 UTC] PHP Warning:  Undefined variable $router in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:38 UTC] PHP Stack trace:
+[10-Aug-2023 08:20:38 UTC] PHP   1. {main}() C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:0
+[10-Aug-2023 08:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function run() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:39 UTC] PHP Warning:  Undefined variable $router in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:39 UTC] PHP Stack trace:
+[10-Aug-2023 08:20:39 UTC] PHP   1. {main}() C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:0
+[10-Aug-2023 08:20:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function run() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:40 UTC] PHP Warning:  Undefined variable $router in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:40 UTC] PHP Stack trace:
+[10-Aug-2023 08:20:40 UTC] PHP   1. {main}() C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:0
+[10-Aug-2023 08:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function run() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:40 UTC] PHP Warning:  Undefined variable $router in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:40 UTC] PHP Stack trace:
+[10-Aug-2023 08:20:40 UTC] PHP   1. {main}() C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:0
+[10-Aug-2023 08:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function run() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:42 UTC] PHP Warning:  Undefined variable $router in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:42 UTC] PHP Stack trace:
+[10-Aug-2023 08:20:42 UTC] PHP   1. {main}() C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:0
+[10-Aug-2023 08:20:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function run() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:42 UTC] PHP Warning:  Undefined variable $router in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:20:42 UTC] PHP Stack trace:
+[10-Aug-2023 08:20:42 UTC] PHP   1. {main}() C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:0
+[10-Aug-2023 08:20:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function run() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php on line 9
+[10-Aug-2023 08:46:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\models\posts.php:25
+Stack trace:
+#0 [internal function]: Post->readAll()
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#5 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\models\posts.php on line 25
+[10-Aug-2023 08:46:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\models\posts.php:25
+Stack trace:
+#0 [internal function]: Post->readAll()
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#5 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\models\posts.php on line 25
+[10-Aug-2023 08:47:45 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:47:49 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:47:57 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:49:22 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:49:23 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:49:23 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:49:23 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:49:24 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:50:57 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:50:58 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:50:58 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:50:58 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:50:58 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:03 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:05 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:30 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:30 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:31 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:31 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:46 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:47 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:47 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:48 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:48 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:48 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:48 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:49 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:54:49 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:12 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:13 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:13 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:13 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:15 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:15 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:15 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:15 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:56:16 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(9): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:57:35 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:37 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:37 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:37 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:38 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:38 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:38 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 08:58:38 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:18:20 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:19:57 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:19:57 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:19:58 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:21:18 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:21:19 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:53 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:54 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:54 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:54 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:55 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:55 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 09:24:55 UTC] PHP Fatal error:  Uncaught TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php:462
+Stack trace:
+#0 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(462): stripos(Array, '@')
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#4 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php on line 462
+[10-Aug-2023 10:08:34 UTC] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\controllers\controller.php:73
+Stack trace:
+#0 [internal function]: Controller->ReadAllPost()
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#5 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\controllers\controller.php on line 73
+[10-Aug-2023 10:08:35 UTC] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\controllers\controller.php:73
+Stack trace:
+#0 [internal function]: Controller->ReadAllPost()
+#1 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Array, Array)
+#2 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Array, Array)
+#3 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\index.php(10): Bramus\Router\Router->run()
+#5 {main}
+  thrown in C:\Users\fassm\OneDrive\Bureau\Becode\BlogAPI\controllers\controller.php on line 73

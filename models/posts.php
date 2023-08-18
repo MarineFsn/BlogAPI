@@ -1,11 +1,12 @@
 <?php
 
+require_once './config/Database.php';
+
 class Post
 {
     private $table = "posts";
     private $connexion = null;
-
-
+    
     public $id;
     public $title;
     public $body;
@@ -18,7 +19,7 @@ class Post
         if ($this->connexion == null) {
             $this->connexion = $db;
         }
-    }  
+    }
 
     public function readAll()
     {
@@ -27,6 +28,14 @@ class Post
         return $query;
     }
 
+    public function readOne()
+    {
+        $sql = "SELECT * FROM $this->table WHERE id = :id";
+        $query = $this->connexion->prepare($sql);
+        $query->bindParam(':id', $this->id, PDO::PARAM_INT);
+        $query->execute();
+        return $query;
+    }
 
     public function createPost()
     {
@@ -39,7 +48,7 @@ class Post
             ':body' => $this->body,
             ':author' => $this->author
         ]);
-        if ($query->execute()) {
+        if ($query) {
             return true;
         } else {
             return false;
@@ -70,12 +79,14 @@ class Post
         $sql = "DELETE FROM $this->table WHERE id = :id";
         $query = $this->connexion->prepare($sql);
 
-        $exeQuery= $query->execute(array(":id" =>$this->id));
+        $exeQuery = $query->execute(array(":id" => $this->id));
 
         if ($exeQuery) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
 }
+  
+

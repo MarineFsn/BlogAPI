@@ -12,8 +12,7 @@ class Database
         $connect = null;
 
         try {
-            $connect = new PDO
-            (
+            $connect = new PDO(
                 "mysql:host=$this->host;dbname=$this->dbname",
                 $this->username,
                 $this->password,
@@ -28,5 +27,3 @@ class Database
         return $connect;
     }
 }
-
-?>
